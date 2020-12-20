@@ -1,1 +1,8 @@
+#Personal Enviroment File
+
 .env.php
+
+# PHP-Storm Crap
+
+./.idea
+
