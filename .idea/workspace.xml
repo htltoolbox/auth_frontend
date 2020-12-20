@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e02da4e0-16fe-4ed3-8b42-99a4d7882215" name="Default Changelist" comment="🛂 login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument">
+      <change afterPath="$PROJECT_DIR$/.env_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allSiteElements/Footer/footer-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allSiteElements/Footer/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allSiteElements/Navbar/menu-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcenter/Icons/LT_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcenter/Icons/LT_Logo965x965.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcenter/Icons/htltoolbox (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcenter/Icons/htltoolbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appcenter/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/check.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/w3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_pages/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_pages/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicons/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/law/datenschutzerklärung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/law/impressum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg/send_reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg/sentEmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="7100dc34-371e-42c2-a5c5-750e8fc1fd9d" name="localhost" />
+      <server host="127.0.0.1" id="44d38956-afd2-412a-8d01-ca6d48dea9aa" name="127.0.0.1" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1hPuLqcR27fVbXcpVuL9sgz7Irm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/php/ext/php_xdebug-.dll" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend" />
+      <recent name="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend\error_pages" />
+      <recent name="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend\appcenter" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e02da4e0-16fe-4ed3-8b42-99a4d7882215" name="Default Changelist" comment="" />
+      <created>1599924996290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599924996290</updated>
+      <workItem from="1599924997308" duration="12380000" />
+      <workItem from="1599993630236" duration="990000" />
+      <workItem from="1599994951153" duration="55000" />
+      <workItem from="1599995262837" duration="8671000" />
+      <workItem from="1600028768478" duration="5541000" />
+      <workItem from="1600197658304" duration="602000" />
+      <workItem from="1600856813105" duration="200000" />
+      <workItem from="1600867784883" duration="3436000" />
+      <workItem from="1600871262920" duration="713000" />
+      <workItem from="1600871990467" duration="1750000" />
+      <workItem from="1603539166139" duration="256000" />
+      <workItem from="1603539430918" duration="961000" />
+      <workItem from="1603541244771" duration="798000" />
+      <workItem from="1604166517077" duration="5517000" />
+      <workItem from="1604185364356" duration="4226000" />
+      <workItem from="1607450161662" duration="601000" />
+      <workItem from="1607450863189" duration="595000" />
+      <workItem from="1608480259972" duration="27000" />
+      <workItem from="1608480296128" duration="1276000" />
+    </task>
+    <task id="LOCAL-00001" summary="🛂 login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument">
+      <created>1608481421718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481421718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument" />
+    <option name="LAST_COMMIT_MESSAGE" value=" login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="186" width="840" height="604" key="#CLI_Interpreters" timestamp="1604171626880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1380" y="12" key="#CLI_Interpreters/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541209798" />
+    <state x="446" y="186" width="840" height="604" key="#CLI_Interpreters/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604171626880" />
+    <state x="-1368" y="178" key="#Deployment" timestamp="1603539240538">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603539240538" />
+    <state x="-1283" y="201" key="#Options" timestamp="1603539602500">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1283" y="201" key="#Options/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603539602500" />
+    <state x="-1253" y="0" key="#PHP" timestamp="1603541211978">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="0" key="#PHP/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600871159987" />
+    <state x="-1253" y="0" key="#PHP/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541211978" />
+    <state x="-1368" y="160" key="#Plugins" timestamp="1603541235722">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="160" key="#Plugins/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541235722" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600035424301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600035424301" />
+    <state x="717" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600872021238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="717" y="321" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600872021238" />
+    <state x="530" y="341" width="859" height="392" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1604171667182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="530" y="341" width="859" height="392" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599995725324" />
+    <state x="530" y="341" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604171667182" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1604171653047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600857012803" />
+    <state x="-1180" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541205258" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604171653047" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604196792827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792827" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604196792827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792827" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604196792827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045172" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792827" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604196792827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792827" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604196792827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792827" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="350" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600041045173" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1604196792828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196792828" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604171186845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599996073263" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604171186845" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1604171747611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600869019948" />
+    <state x="-1459" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541323655" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604171747611" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600871025318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600871025318" />
+    <state x="-1826" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1603541170275">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1826" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603541170275" />
+    <state x="-1142" y="250" key="ftp.server.browser" timestamp="1603539237841">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1142" y="250" key="ftp.server.browser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603539237841" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603539620544">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600872972251" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603539620544" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="register.php">
+        <watch expression="$curl" />
+        <watch expression="$env_apikey" language="PHP" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

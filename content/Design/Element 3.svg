@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+    <defs>
+        <style>.cls-1{fill:#1e272e;}.cls-2{font-size:107px;fill:#fcfcfc;font-family:Montserrat-Bold,
+            Montserrat;font-weight:700;}.cls-3{font-size:103px;fill:#fff;}.cls-4{letter-spacing:-0.05em;}.cls-5{fill:#9372b1;}.cls-6,.cls-9{fill:#d24592;}.cls-6{letter-spacing:-0.02em;}.cls-7{letter-spacing:0em;}.cls-8{fill:#9560a4;}
+        </style>
+    </defs>
+    <title>Element 3</title>
+    <g id="Ebene_2" data-name="Ebene 2">
+        <g id="Ebene_1-2" data-name="Ebene 1">
+            <rect class="cls-1" width="1366" height="768"/>
+            <text class="cls-2" transform="translate(564 351.71)">HTL
+                <tspan class="cls-3">
+                    <tspan class="cls-4" x="0" y="92">T</tspan>
+                    <tspan class="cls-5" x="57.99" y="92">oo</tspan>
+                    <tspan x="192.92" y="92">l</tspan>
+                    <tspan x="0" y="184">B</tspan>
+                    <tspan class="cls-6" x="78.79" y="184">o</tspan>
+                    <tspan class="cls-7" x="144.51" y="184">x</tspan>
+                </tspan>
+            </text>
+            <rect class="cls-8" x="692.16" y="385.82" width="62.65" height="60.34" rx="30.17" ry="30.17"/>
+            <rect class="cls-8" x="625" y="385.82" width="62.65" height="60.34" rx="30.17" ry="30.17"/>
+            <rect class="cls-9" x="645.31" y="477.82" width="62.5" height="60.19" rx="30.1" ry="30.1"/>
+        </g>
+    </g>
+</svg>

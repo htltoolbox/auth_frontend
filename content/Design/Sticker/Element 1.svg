@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.64 229.64">
+    <defs>
+        <style>.cls-1{fill:#1e272e;}.cls-2{font-size:52.25px;fill:#fdfdfd;font-family:Montserrat-Bold,
+            Montserrat;font-weight:700;}.cls-3,.cls-6{font-size:50.3px;fill:#fff;}.cls-3{letter-spacing:-0.05em;}.cls-4{fill:#9373b1;letter-spacing:0em;}.cls-5{letter-spacing:0em;}.cls-7,.cls-9{fill:#d24592;}.cls-7{letter-spacing:-0.02em;}.cls-8{fill:#9560a4;}
+        </style>
+    </defs>
+    <title>Element 1</title>
+    <g id="Ebene_2" data-name="Ebene 2">
+        <g id="Ebene_1-2" data-name="Ebene 1">
+            <circle class="cls-1" cx="114.82" cy="114.82" r="114.82"/>
+            <text class="cls-2" transform="translate(60.19 85.41)">HTL
+                <tspan class="cls-3">
+                    <tspan x="0" y="44.93">T</tspan>
+                    <tspan class="cls-4" x="28.32" y="44.93">oo</tspan>
+                    <tspan class="cls-5" x="94.21" y="44.93">l</tspan>
+                </tspan>
+                <tspan class="cls-6">
+                    <tspan x="0" y="89.86">B</tspan>
+                    <tspan class="cls-7" x="38.48" y="89.86">o</tspan>
+                    <tspan x="70.57" y="89.86">x</tspan>
+                </tspan>
+            </text>
+            <rect class="cls-8" x="122.78" y="102.07" width="30.6" height="29.47" rx="14.73" ry="14.73"/>
+            <rect class="cls-8" x="89.98" y="102.07" width="30.6" height="29.47" rx="14.73" ry="14.73"/>
+            <rect class="cls-9" x="99.9" y="147" width="30.52" height="29.4" rx="14.7" ry="14.7"/>
+        </g>
+    </g>
+</svg>

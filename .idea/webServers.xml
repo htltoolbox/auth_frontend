@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ee7b80f4-9252-495b-8e3c-d86cf0ce0476" name="ftp.philsoft.at" url="https://toolbox.philsoft.at">
+        <fileTransfer rootFolder="/toolbox" host="ftp.philsoft.at" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
