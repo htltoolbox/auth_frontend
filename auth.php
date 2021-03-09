@@ -6,49 +6,59 @@ include_once "include/include.php";
 include_once ".env.php";
 
 $GLOBALS['token'] = TRUE;
-$GLOBALS['appid'] = "";
+if(empty($_SESSION['appid'])){
+    $_SESSION['appid'] = test_input($_GET['appid']);
+}
+
 
 $username = $password = "";
 
+# Try to get redirectURL
+
+
+$newappid = $_SESSION['appid'];
+
+
+if($newappid != null){
+    $appid = $newappid;
+    $GLOBALS['appid'] = $appid;
+    $_SESSION['appid'] = $appid;
+    echo "<script>console.log('AppID = ' + $appid);</script>";
+}
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $appid = $_SESSION['appid'];
     $username = test_input($_POST["username"]);
     $password = test_input($_POST["password"]);
 
+    echo "APPID: " . $appid;
+
     include "functions/login.php";
 
-    $GLOBALS['token'] = login($username, $password);
+    if(isset($appid)){
 
-    if ($GLOBALS['token'] != FALSE) {
-        $_SESSION['token'] = $GLOBALS['token'];
+        $resp = hashlogin($appid, $username, $password);
 
-        $curl = curl_init();
+        if(!$resp){
+            echo "<script>console.log('Login-Failed (Response False');</script>";
+            die();
+        }
 
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => "api.toolbox.philsoft.at/users/me",
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => "",
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => "GET",
-            CURLOPT_HTTPHEADER => array(
-                "Authorization: Bearer " . $_SESSION['token']
-            ),
-        ));
+        $redirecturl = $resp->{'redirect-url'};
+        $temphash = $resp->{'temphash'};
 
-        $response = curl_exec($curl);
+        header("Location: " . $redirecturl . $temphash);
 
-        curl_close($curl);
-        $_SESSION['userdata'] = $response;
-        $userdata = json_decode($_SESSION['userdata']);
-
-        header("Location: /appcenter/home.php");
-        exit();
     }
+}
 
+function test_input($data){
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
 }
 
 ?>
