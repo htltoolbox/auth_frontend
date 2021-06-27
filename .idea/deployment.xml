@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="TOOLBOX" remoteFilesAllowedToDisappearOnAutoupload="false" compareModeInSync="TEXT">
     <serverData>
+      <paths name="TOOLBOX">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/toolbox_auth" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ftp.philsoft.at">
         <serverdata>
           <mappings>
@@ -10,5 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

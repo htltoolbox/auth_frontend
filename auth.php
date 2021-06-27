@@ -5,61 +5,28 @@ error_reporting(E_ALL & ~E_NOTICE);
 include_once "include/include.php";
 include_once ".env.php";
 
+$debug = $GLOBALS['debug'];
 $GLOBALS['token'] = TRUE;
-if(empty($_SESSION['appid'])){
-    $_SESSION['appid'] = test_input($_GET['appid']);
-}
 
+# Declare Empty Strings
 
 $username = $password = "";
 
-# Try to get redirectURL
-
-
-$newappid = $_SESSION['appid'];
-
-
-if($newappid != null){
+# Test if an AppId was passed in and is valid
+$newappid = test_input($_GET['appid']);
+if ($newappid != null) {
     $appid = $newappid;
+
+    # Write the AppID into the session and global superglobals
+
     $GLOBALS['appid'] = $appid;
     $_SESSION['appid'] = $appid;
-    echo "<script>console.log('AppID = ' + $appid);</script>";
-}
 
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    $appid = $_SESSION['appid'];
-    $username = test_input($_POST["username"]);
-    $password = test_input($_POST["password"]);
-
-    echo "APPID: " . $appid;
-
-    include "functions/login.php";
-
-    if(isset($appid)){
-
-        $resp = hashlogin($appid, $username, $password);
-
-        if(!$resp){
-            echo "<script>console.log('Login-Failed (Response False');</script>";
-            die();
-        }
-
-        $redirecturl = $resp->{'redirect-url'};
-        $temphash = $resp->{'temphash'};
-
-        header("Location: " . $redirecturl . $temphash);
-
+    if($debug){
+        echo "<script>console.log('AppID = ' + $appid);</script>";
     }
 }
 
-function test_input($data){
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
 
 ?>
 
@@ -167,7 +134,7 @@ function test_input($data){
     </div>
     <div class="content" id="main">
         <div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
-            <form class="login100-form validate-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
+            <form class="login100-form validate-form" action="oauth.php"
                   method="post">
 						<span class="login100-form-title p-b-55">
 							<img src="/content/Design/Black/Logo.png" width="100" alt="">

@@ -9,14 +9,17 @@ $GLOBALS['token'] = TRUE;
 $GLOBALS['appid'] = "";
 
 $username = $password = "";
+$email_notification = FALSE;
 
-
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $email_notification = test_input($_GET["email_notification"]);
+}
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = test_input($_POST["username"]);
     $password = test_input($_POST["password"]);
 
-    include "functions/login.php";
+    include_once "functions/login.php";
 
     $GLOBALS['token'] = login($username, $password);
 
@@ -168,6 +171,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     echo "<div class='w3-panel w3-red flex-sb p-t-10 p-l-10 p-r-10 p-b-10'>
                                     <i class='w3-xxlarge p-r-10 lnr lnr-cross-circle'></i>
                                     <h3>Email und Passwort sind in dieser Kombination nicht korrekt.</h3>
+                                  </div> ";
+                }
+                if ($email_notification == true) {
+                    echo "<div class='w3-panel w3-green flex-sb p-t-10 p-l-10 p-r-10 p-b-10'>
+                                    <i class='w3-xxlarge p-r-10 lnr lnr-checkmark-circle'></i>
+                                    <h3>Email wurde verschickt! Checke auch deinen Spam-Ordner</h3>
                                   </div> ";
                 }
                 ?>

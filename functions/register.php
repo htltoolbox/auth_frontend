@@ -1,8 +1,7 @@
 <?php
 
 
-
-function register($EMAIL, $PASSWORD, $CLASS)
+function register($EMAIL, $PASSWORD, $CLASS, $IP)
 {
     $debug = $GLOBALS['debug'];
 
@@ -12,7 +11,7 @@ function register($EMAIL, $PASSWORD, $CLASS)
 
     $ip = getUserIpAddr();
 
-    if($debug){
+    if ($debug) {
         echo "IP: " . $ip;
         echo " | Email: " . $EMAIL;
         echo " | Password: " . $PASSWORD;
@@ -21,7 +20,7 @@ function register($EMAIL, $PASSWORD, $CLASS)
 
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://api.toolbox.philsoft.at/create/user?api_key=' . $env_apikey,
+        CURLOPT_URL => 'https://api.toolbox.philsoft.at/create/user?api_key=' . $env_apikey . '&ip=' . $ip,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -29,10 +28,10 @@ function register($EMAIL, $PASSWORD, $CLASS)
         CURLOPT_FOLLOWLOCATION => true,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'PUT',
-        CURLOPT_POSTFIELDS =>'{
+        CURLOPT_POSTFIELDS => '{
       "EMAIL": "' . $EMAIL . '",
       "PASSWORD": "' . $PASSWORD . '",
-      "CLASS": "' .  $CLASS . '"
+      "CLASS": "' . $CLASS . '"
     }',
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json'
