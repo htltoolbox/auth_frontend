@@ -5,54 +5,28 @@ error_reporting(E_ALL & ~E_NOTICE);
 include_once "include/include.php";
 include_once ".env.php";
 
+$debug = $GLOBALS['debug'];
 $GLOBALS['token'] = TRUE;
-$GLOBALS['appid'] = "";
+
+# Declare Empty Strings
 
 $username = $password = "";
-$email_notification = FALSE;
 
-if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    $email_notification = test_input($_GET["email_notification"]);
-}
+# Test if an AppId was passed in and is valid
+$newappid = test_input($_GET['appid']);
+if ($newappid != null) {
+    $appid = $newappid;
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = test_input($_POST["username"]);
-    $password = test_input($_POST["password"]);
+    # Write the AppID into the session and global superglobals
 
-    include_once "functions/login.php";
+    $GLOBALS['appid'] = $appid;
+    $_SESSION['appid'] = $appid;
 
-    $GLOBALS['token'] = login($username, $password);
-
-    if ($GLOBALS['token'] != FALSE) {
-        $_SESSION['token'] = $GLOBALS['token'];
-
-        $curl = curl_init();
-
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => "api.toolbox.philsoft.at/users/me",
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => "",
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => "GET",
-            CURLOPT_HTTPHEADER => array(
-                "Authorization: Bearer " . $_SESSION['token']
-            ),
-        ));
-
-        $response = curl_exec($curl);
-
-        curl_close($curl);
-        $_SESSION['userdata'] = $response;
-        $userdata = json_decode($_SESSION['userdata']);
-
-        header("Location: /appcenter/home.php");
-        exit();
+    if($debug){
+        echo "<script>console.log('AppID = ' + $appid);</script>";
     }
-
 }
+
 
 ?>
 
@@ -160,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <div class="content" id="main">
         <div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
-            <form class="login100-form validate-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
+            <form class="login100-form validate-form" action="oauth.php"
                   method="post">
 						<span class="login100-form-title p-b-55">
 							<img src="/content/Design/Black/Logo.png" width="100" alt="">
@@ -171,12 +145,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     echo "<div class='w3-panel w3-red flex-sb p-t-10 p-l-10 p-r-10 p-b-10'>
                                     <i class='w3-xxlarge p-r-10 lnr lnr-cross-circle'></i>
                                     <h3>Email und Passwort sind in dieser Kombination nicht korrekt.</h3>
-                                  </div> ";
-                }
-                if ($email_notification == true) {
-                    echo "<div class='w3-panel w3-green flex-sb p-t-10 p-l-10 p-r-10 p-b-10'>
-                                    <i class='w3-xxlarge p-r-10 lnr lnr-checkmark-circle'></i>
-                                    <h3>Email wurde verschickt! Checke auch deinen Spam-Ordner</h3>
                                   </div> ";
                 }
                 ?>

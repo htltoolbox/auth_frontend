@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e02da4e0-16fe-4ed3-8b42-99a4d7882215" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/account/activate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Icons/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/Icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/auth_frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/auth_frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allSiteElements/Navbar/menu-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/allSiteElements/Navbar/menu-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allSiteElements/Navbar/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/allSiteElements/Navbar/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Design/ToolBox_Try01.ai" beforeDir="false" afterPath="$PROJECT_DIR$/content/Design/ToolBox_Try01.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/Icons/user-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/content/Icons/user-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/include.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/include.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg/send_reg.php" beforeDir="false" afterPath="$PROJECT_DIR$/reg/send_reg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validate.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="7100dc34-371e-42c2-a5c5-750e8fc1fd9d" name="localhost" />
+      <server host="127.0.0.1" id="44d38956-afd2-412a-8d01-ca6d48dea9aa" name="127.0.0.1" />
+      <server host="85.127.81.146" id="8e019cc2-0e97-4abb-9904-e5ccce237ada" name="85.127.81.146" />
+      <server host="5xn1omagtqhk7283.myfritz.net" id="8d44ffb3-ce5d-4080-82f4-94f9e1f00d68" name="5xn1omagtqhk7283.myfritz.net" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/phpinfo" remote-root="E:/cloud.philsoft.at/_Programmieren/_TOOLBOX/auth_frontend" />
+        </path_mappings>
+      </server>
+      <server host="85-127-81-146.dsl.dynamic.surfer.at" id="eaddcdf8-e23f-4fa0-a930-ae43b2948cb6" name="85-127-81-146.dsl.dynamic.surfer.at" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1hPuLqcR27fVbXcpVuL9sgz7Irm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\cloud.philsoft.at\_Programmieren\_TOOLBOX\auth_frontend\appcenter\Icons" />
+      <recent name="E:\cloud.philsoft.at\_Programmieren\_TOOLBOX\auth_frontend\content\Icons" />
+      <recent name="E:\cloud.philsoft.at\_Programmieren\_TOOLBOX\auth_frontend\css" />
+      <recent name="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend" />
+      <recent name="C:\OneDrive_HTBLuVA-Salzburg\OneDrive - HTBLuVA Salzburg\_Programmieren\_TOOLBOX\auth_frontend\error_pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="auth_frontend" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e02da4e0-16fe-4ed3-8b42-99a4d7882215" name="Default Changelist" comment="" />
+      <created>1599924996290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599924996290</updated>
+      <workItem from="1599924997308" duration="12380000" />
+      <workItem from="1599993630236" duration="990000" />
+      <workItem from="1599994951153" duration="55000" />
+      <workItem from="1599995262837" duration="8671000" />
+      <workItem from="1600028768478" duration="5541000" />
+      <workItem from="1600197658304" duration="602000" />
+      <workItem from="1600856813105" duration="200000" />
+      <workItem from="1600867784883" duration="3436000" />
+      <workItem from="1600871262920" duration="713000" />
+      <workItem from="1600871990467" duration="1750000" />
+      <workItem from="1603539166139" duration="256000" />
+      <workItem from="1603539430918" duration="961000" />
+      <workItem from="1603541244771" duration="798000" />
+      <workItem from="1604166517077" duration="5517000" />
+      <workItem from="1604185364356" duration="4226000" />
+      <workItem from="1607450161662" duration="601000" />
+      <workItem from="1607450863189" duration="595000" />
+      <workItem from="1608480259972" duration="27000" />
+      <workItem from="1608480296128" duration="4588000" />
+      <workItem from="1611582091527" duration="194000" />
+      <workItem from="1614113482561" duration="2498000" />
+      <workItem from="1614285807515" duration="4938000" />
+      <workItem from="1614293441497" duration="210000" />
+      <workItem from="1614595329732" duration="1610000" />
+      <workItem from="1614597172093" duration="2933000" />
+      <workItem from="1615157864399" duration="1685000" />
+      <workItem from="1615241313286" duration="4041000" />
+      <workItem from="1615324406016" duration="3776000" />
+      <workItem from="1615674405451" duration="1300000" />
+      <workItem from="1615755016332" duration="601000" />
+      <workItem from="1615835353401" duration="6265000" />
+      <workItem from="1616417756515" duration="51000" />
+      <workItem from="1618781903702" duration="20000" />
+      <workItem from="1618781970234" duration="1518000" />
+      <workItem from="1619715169065" duration="3990000" />
+      <workItem from="1619978004186" duration="4008000" />
+      <workItem from="1622999316780" duration="22000" />
+      <workItem from="1624814672486" duration="62000" />
+    </task>
+    <task id="LOCAL-00001" summary="🛂 login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument">
+      <created>1608481421718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481421718</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🙈 Added gitignore for personal .env credentials and other IDE stuff">
+      <created>1608481614136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481614136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="💄 Bulk Commit of all the favicons and stylesheets">
+      <created>1608481924454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608481924454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🔧 Added Configuration Template">
+      <created>1608483426476</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483426476</updated>
+    </task>
+    <task id="LOCAL-00005" summary="✨ Added Registration&#10;&#10;+ register.php&#10;+ functions/register.php&#10;+ reg/send_reg.php&#10;+ reg/sentEmail.php">
+      <created>1608483645868</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483645868</updated>
+    </task>
+    <task id="LOCAL-00006" summary="✨ Login-Function for Index.php">
+      <created>1608483710818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483710818</updated>
+    </task>
+    <task id="LOCAL-00007" summary="✨ Include File for Webssesions">
+      <created>1608483738358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483738358</updated>
+    </task>
+    <task id="LOCAL-00008" summary="✨ Added Appcenter for Future Apps to be listed">
+      <created>1608483803259</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483803259</updated>
+    </task>
+    <task id="LOCAL-00009" summary="🙈 Updated .gitignore">
+      <created>1608483877231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608483877231</updated>
+    </task>
+    <task id="LOCAL-00010" summary="✨ Updated Homescreen&#10;&#10;+ Added new App-Weberboard">
+      <created>1619721494295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619721494295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="🥅 Some Pfusch to prevent users from sending the from multiple times">
+      <created>1619721858554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619721858554</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" login.php working&#10;&#10;Now login is fully working. &#10;&#10;Support for third party apps will come soon with the &quot;redir&quot; URL argument" />
+    <MESSAGE value=" Added gitignore for personal .env credentials and other IDE stuff" />
+    <MESSAGE value=" Bulk Commit of all the favicons and stylesheets" />
+    <MESSAGE value=" Added Configuration Template" />
+    <MESSAGE value="✨ Added Registration&#10;&#10;+ register.php&#10;+ functions/register.php&#10;+ reg/send_reg.php&#10;+ reg/sentEmail.php" />
+    <MESSAGE value="✨ Login-Function for Index.php" />
+    <MESSAGE value="✨ Include File for Webssesions" />
+    <MESSAGE value="✨ Added Appcenter for Future Apps to be listed" />
+    <MESSAGE value=" Updated .gitignore" />
+    <MESSAGE value="✨ Updated Homescreen&#10;&#10;+ Added new App-Weberboard" />
+    <MESSAGE value=" Some Pfusch to prevent users from sending the from multiple times" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Some Pfusch to prevent users from sending the from multiple times" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="index.php">
+        <watch expression="$GLOBALS[&quot;_REQUEST&quot;]" />
+        <watch expression="$GLOBALS[&quot;api_url&quot;]" />
+      </configuration>
+      <configuration name="register.php">
+        <watch expression="$curl" />
+        <watch expression="$env_apikey" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

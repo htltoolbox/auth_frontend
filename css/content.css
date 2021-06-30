@@ -1,0 +1,138 @@
+.main {
+    height: 100%;
+}
+
+#topbar {
+    height: 85px;
+    width: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.toplogo {
+    height: 90%;
+    align-content: center;
+    padding: 10px 5px 5px 5px;
+
+}
+
+.menuitem {
+    align-content: center;
+    padding: 10px;
+    border: solid white 5px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.menuitem:hover {
+    border-color: mediumpurple;
+}
+
+#grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+
+    margin: 50px;
+}
+
+@media screen and (min-width: 1000px) {
+    .card-tall {
+        grid-row: span 2 / auto;
+    }
+
+    .card-wide {
+        grid-column: span 2 / auto;
+    }
+}
+
+.icon {
+    fill: white;
+    height: 35px;
+
+}
+
+input {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: sans-serif;
+    border: solid 0px;
+    border-bottom: solid white 3px;
+}
+
+input:focus {
+    border-bottom-color: mediumpurple;
+}
+
+.al_start {
+    height: 100%;
+    align-self: flex-start;
+    display: flex;
+}
+
+#user {
+    align-self: flex-end;
+}
+
+.container {
+    margin: 0px;
+    padding: 10px;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.1);
+    font-family: sans-serif;
+    flex-grow: 1;
+}
+
+
+#name {
+    padding-left: 50px;
+}
+
+#img {
+    background-size: cover;
+}
+
+#kbs {
+
+}
+
+.table {
+    display: flex;
+}
+
+.row {
+    flex: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: normal;
+}
+
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: mediumpurple;
+    color: white;
+    text-shadow: #222222;
+}
+
+.eagle {
+
+}
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px"
+     y="0px"
+     width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<rect x="-263" y="-215" stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" width="20"
+      height="67"/>
+    <rect x="-304" y="-215" stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" width="20"
+          height="67"/>
+    <rect x="-283" y="-106" stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" width="20"
+          height="67"/>
+    <rect x="-307" y="-83" stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" width="67"
+          height="20"/>
+    <polygon stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" points="-198,-217.907
+	-134.166,-181.053 -198,-144.199 "/>
+    <polygon stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" points="-90,-217.907
+	-26.166,-181.053 -90,-144.199 "/>
+    <rect x="-22.5" y="-214.5" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-miterlimit="10"
+          width="3" height="66"/>
+    <g>
+	
+		<rect x="-55" y="-172" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="9" height="29"/>
+
+        <rect x="-65" y="-162" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="29" height="9"/>
+</g>
+    <polygon stroke="#000000" stroke-width="10" stroke-linejoin="round" stroke-miterlimit="10" points="-90,-109.907 -26.166,-73.053
+	-90,-36.199 "/>
+    <g>
+	
+		<rect x="-55" y="-64" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="9" height="29"/>
+
+        <rect x="-65" y="-54" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="29" height="9"/>
+</g>
+    <ellipse cx="-165.917" cy="-88.417" rx="23.472" ry="24.644"/>
+    <path d="M-122.157-23c0.012-0.406,0.032-0.811,0.032-1.22c0-23.626-19.606-42.78-43.792-42.78s-43.792,19.154-43.792,42.78
+	c0,0.409,0.02,0.813,0.032,1.22H-122.157z"/>
+    <g>
+	
+		<rect x="-147" y="-64" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="9" height="29"/>
+
+        <rect x="-157" y="-54" fill="#7AC943" stroke="#7AC943" stroke-width="4" stroke-linejoin="round"
+              stroke-miterlimit="10" width="29" height="9"/>
+</g>
+    <polygon fill="#7AC943" stroke="#7AC943" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" points="73,-162.245
+	80.834,-157.722 73,-153.199 "/>
+    <polygon fill="#662D91" stroke="#662D91" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" points="74,-211.245
+	81.834,-206.722 74,-202.199 "/>
+    <path fill="none" stroke="#662D91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+          stroke-miterlimit="10" d="
+	M20.37-157.375C35.5-157.375,47.742-168,47.742-182h0.011c0-14,12.243-25.188,27.372-25.188"/>
+    <path fill="none" stroke="#7AC943" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+          stroke-miterlimit="10" d="
+	M20.37-207.531C35.5-207.531,47.742-196,47.742-182h0.011c0,14,12.243,24.734,27.372,24.734"/>
+    <g>
+	
+		<line fill="none" stroke="#000000" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="-43.5" x2="82" y2="-43.5"/>
+
+        <line fill="none" stroke="#000000" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="-72.5" x2="82" y2="-72.5"/>
+
+        <line fill="none" stroke="#000000" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="-100.5" x2="82" y2="-100.5"/>
+</g>
+    <g>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="79.5" x2="82" y2="79.5"/>
+
+        <line fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="50.5" x2="82" y2="50.5"/>
+
+        <line fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"
+              stroke-miterlimit="10" x1="17" y1="22.5" x2="82" y2="22.5"/>
+</g>
+</svg>
